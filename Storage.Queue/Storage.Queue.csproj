@@ -7,8 +7,8 @@
     <ProjectGuid>{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Storage.Data</RootNamespace>
-    <AssemblyName>Storage.Data</AssemblyName>
+    <RootNamespace>Storage.Queue</RootNamespace>
+    <AssemblyName>Storage.Queue</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
