@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync.Watcher", "StorageSync.Watcher\StorageSync.Watcher.csproj", "{806BD6E2-101C-4756-ABF5-37BE6A1B016D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync.IO.Watcher", "StorageSync.Watcher\StorageSync.IO.Watcher.csproj", "{806BD6E2-101C-4756-ABF5-37BE6A1B016D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.Queue", "Storage.Data\Storage.Queue.csproj", "{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.IO.File", "Storage.IO.File\Storage.IO.File.csproj", "{0955DBEA-DF84-48EF-94AF-88FE11CD1BED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{806BD6E2-101C-4756-ABF5-37BE6A1B016D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{806BD6E2-101C-4756-ABF5-37BE6A1B016D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{806BD6E2-101C-4756-ABF5-37BE6A1B016D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0955DBEA-DF84-48EF-94AF-88FE11CD1BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0955DBEA-DF84-48EF-94AF-88FE11CD1BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0955DBEA-DF84-48EF-94AF-88FE11CD1BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0955DBEA-DF84-48EF-94AF-88FE11CD1BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
