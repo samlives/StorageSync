@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.IO.File", "Storage.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.Queue", "Storage.Queue\Storage.Queue.csproj", "{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{89590384-C8EE-466E-B740-3D2B495284C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync.Plugins.DropBox", "StorageSync.Plugins.DropBox\StorageSync.Plugins.DropBox.csproj", "{143E1745-7C64-4CF9-B213-D9D2030BAE4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE4F8FCB-52F9-4282-B7B3-9E1980FE5BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{143E1745-7C64-4CF9-B213-D9D2030BAE4D} = {89590384-C8EE-466E-B740-3D2B495284C4}
 	EndGlobalSection
 EndGlobal
