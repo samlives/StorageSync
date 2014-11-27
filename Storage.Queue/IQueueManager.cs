@@ -1,6 +1,8 @@
 ﻿
 using StorageSync.IO.File;
 using System.Collections.Generic;
+using Storage.Queue;
+
 namespace StorageSync.Watcher
 {
     public class QueueManager : IQueueManager
@@ -10,11 +12,11 @@ namespace StorageSync.Watcher
         {
             _queueProvider = queueProvider;
         }
-        public ChangeFileContext AddToQueue(ChangeFileContext fileContext)
+        public QueueFileContext AddToQueue(QueueFileContext fileContext)
         {            
             return null;    
         }
-        public ChangeFileContext UpdateQueue(ChangeFileContext fileContext)
+        public QueueFileContext UpdateQueue(QueueFileContext fileContext)
         {
             return null;
         }
