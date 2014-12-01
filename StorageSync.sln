@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync.IO.Watcher", "StorageSync.Watcher\StorageSync.IO.Watcher.csproj", "{806BD6E2-101C-4756-ABF5-37BE6A1B016D}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{89590384-C8EE-466E-B740-3D2B495284C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageSync.Plugins.DropBox", "StorageSync.Plugins.DropBox\StorageSync.Plugins.DropBox.csproj", "{143E1745-7C64-4CF9-B213-D9D2030BAE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropBoxTester", "DropBoxTester\DropBoxTester.csproj", "{B76273F9-AB97-4F63-9C58-BEA9713830D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,11 +37,16 @@ Global
 		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143E1745-7C64-4CF9-B213-D9D2030BAE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76273F9-AB97-4F63-9C58-BEA9713830D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76273F9-AB97-4F63-9C58-BEA9713830D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76273F9-AB97-4F63-9C58-BEA9713830D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76273F9-AB97-4F63-9C58-BEA9713830D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{143E1745-7C64-4CF9-B213-D9D2030BAE4D} = {89590384-C8EE-466E-B740-3D2B495284C4}
+		{B76273F9-AB97-4F63-9C58-BEA9713830D7} = {89590384-C8EE-466E-B740-3D2B495284C4}
 	EndGlobalSection
 EndGlobal
